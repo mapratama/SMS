@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp" >
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/send_area"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/gray_rounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/primary_text"
+            android:id="@+id/send"
+            android:layout_below="@+id/send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angga Angga "
+            android:textSize="15dp"/>
+
+        <TextView
+            android:textColor="@color/secondary_text"
+            android:id="@+id/send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17:00"
+            android:textSize="11dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/receive_area"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/light_blue_rounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/primary_text"
+            android:id="@+id/receive"
+            android:layout_below="@+id/receive_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:textColor="@color/secondary_text"
+            android:id="@+id/receive_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="17:00"
+            android:textSize="11dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

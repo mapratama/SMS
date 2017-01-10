@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="ignore_permission">Sorry, application need granted permission for read your messages,
+    Please granted message permission in your settings device.</string>
+</resources>
